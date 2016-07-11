@@ -8,7 +8,7 @@ driver.get("http://www.gmail.com")
 driver.implicitly_wait(5)
 driver.find_element_by_xpath("//*[@id='Email']").send_keys("dynamitechetan@gmail.com")
 driver.find_element_by_id("next").click()
-driver.find_element_by_xpath("//*[@id='Passwd']").send_keys("chetankaushik29")
+driver.find_element_by_xpath("//*[@id='Passwd']").send_keys("password")
 driver.find_element_by_xpath("//*[@id='signIn']").click()
 inbox = driver.find_element_by_xpath("//*[contains(@title,'Inbox')]").text
 
