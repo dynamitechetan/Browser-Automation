@@ -1,4 +1,3 @@
-# Browser-Automation
 # Browser Automation in Python Using Selenium
 ## Download Selenium in Python
 ### Using pip
