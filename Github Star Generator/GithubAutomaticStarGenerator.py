@@ -5,7 +5,7 @@ import pyautogui
 from selenium.webdriver.common.keys import Keys
 
 
-for x in range(267,8000000):
+for x in range(277,8000000):
 
 	i=random.randint(0,99);
 
@@ -57,6 +57,9 @@ for x in range(267,8000000):
 	repo=driver.find_element_by_id("repository_name");
 	repo.send_keys(names[i]);
 	repo.send_keys(Keys.RETURN);
+
+	driver.get("https://github.com/AnupKumarPanwar");
+	driver.find_element_by_xpath("//*[@id='js-pjax-container']/div/div/div[2]/div[1]/div/span/span/a");
 	
 
 	driver.get("https://github.com/AnupKumarPanwar/Ionic-FB-Login-PHP-MySQL-DB-AdMob");
