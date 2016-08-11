@@ -5,7 +5,7 @@
 pip install selenium
 ```
 
-.
+..
 ## Running the Code
 1. Download or clone the repository
 2. Open seach script in Python Idle (Version 3.0+)
